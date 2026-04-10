@@ -9,5 +9,5 @@
       ]
     }
   },
-  "postCreateCommand": "emcc --version"
+  "postCreateCommand": "git submodule update --init --recursive && emcc --version"
 }

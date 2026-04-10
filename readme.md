@@ -43,6 +43,7 @@ This project uses [emscripten](https://github.com/kripken/emscripten) to compile
 
 ```
 npm run build
+npx serve .
 ```
 
 [npm]: https://www.npmjs.com/package/aubiojs
