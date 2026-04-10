@@ -1,0 +1,13 @@
+{
+  "name": "Emscripten (C++)",
+  "image": "emscripten/emsdk:latest",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.cpptools",
+        "ms-vscode.cmake-tools"
+      ]
+    }
+  },
+  "postCreateCommand": "emcc --version"
+}
